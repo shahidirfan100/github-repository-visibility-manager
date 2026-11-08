@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Linter and test caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# Runtime repository cache (may contain private repository metadata)
+/cache/*.json
+/cache/*.json.tmp
+
+# Local app output
+*.log
+crash_*.txt
+visibility_snapshot_*.json
+
